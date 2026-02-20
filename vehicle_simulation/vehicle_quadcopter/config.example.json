@@ -1,0 +1,15 @@
+{
+  "default": {
+    "matlab_command": "C:/Program Files/MATLAB/R2023b/bin/matlab.exe -nosplash -nodesktop -r \"run('SRC_MATLAB_SCRIPT');\"",
+    "sitl_wsl_command": "bash src/wsl/sitl/start_sitl_json.sh",
+    "mission_planner_path": "C:/Program Files (x86)/Mission Planner/MissionPlanner.exe",
+    "work_dir": "C:/Users/danie/Documents/5_Projects/uav-sysid"
+  },
+  "models": {
+    "Copter": {
+      "matlab_script": "MATLAB_SITL_physics_backend/Copter/SIM_multicopter.m",
+      "sitl_args": "--out udp:127.0.0.1:14550",
+      "notes": "Adjust sitl_wsl_command template to include model-specific args if needed"
+    }
+  }
+}

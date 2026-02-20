@@ -1,0 +1,20 @@
+{
+  "sitl": {
+    "use_wsl": true,
+    "wsl_shell": "bash -lc",
+    "command": "sim_vehicle.py",
+    "vehicle_type": "ArduCopter",
+    "model": "JSON",
+    "model_arg": "172.28.176.1",
+    "extra_args": ""
+  },
+  "matlab": {
+    "exe": "C:\\Program Files\\MATLAB\\R2025a\\bin\\matlab.exe",
+    "script": "MATLAB_SITL_physics_backend/Copter/matlab_models/SIM_multicopter.m",
+    "nosplash": true,
+    "nodesktop": true
+  },
+  "mission_planner": {
+    "exe": "C:\\Program Files (x86)\\Mission Planner\\MissionPlanner.exe"
+  }
+}
