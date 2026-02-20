@@ -1,3 +1,17 @@
+Metadata-Version: 2.4
+Name: uav-sysid
+Version: 0.1.0
+Summary: UAV Development Tool: System Identification, Automated STIL Simulation, MATLAB Physics Backend
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.24
+Requires-Dist: scipy>=1.10
+Requires-Dist: pandas>=2.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: pytest-cov>=4.1; extra == "dev"
+
 # uav-sysid
 
 UAV Development Tool providing three integrated capabilities:
